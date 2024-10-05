@@ -8,7 +8,7 @@ with open('LinearRegressionModel.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Load the dataset to get feature names and data
-df = pd.read_csv(r"D:\car\carprices.csv")
+df = pd.read_csv("carprices.csv")
 
 # Streamlit app title
 st.title("Car Price Prediction App")
